@@ -1,0 +1,147 @@
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+   color: #003366;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#imglogo{
+    width: 150px;
+    height: 150px;
+}
+
+#imglupa{
+    width: 5%;
+    height: auto;
+}
+
+.busca, .menu-conteudo{
+    background-color: pink;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 35%;
+    margin-right: 10px;
+    float: left;
+}
+
+.busca h2,
+.busca form,
+.menu-conteudo h2{
+    margin: 10px;
+}
+
+.menu-conteudo li{
+    background-color: bisque;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a{
+    color: black;
+}
+
+.menu-conteudo{
+    clear: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.destaque{
+    margin-top: 10px;
+}
+
+.busca imput[type=search]{
+    width: 170px;
+}
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social{
+    position: absolute;
+    right: 10px;
+}
+
+.social li{
+    float: left;
+    margin: 20px;
+}
+
+footer{
+    clear: both;
+}
+
+.menu-conteudo li ul{
+    display: none;
+}
+
+.menu-conteudo li:hover ul{
+    display: block;
+}
+
+.menu-conteudo ul ul li{
+    background-color: greenyellow;
+}
+
+.menu-conteudo ul li a::before{
+    content: '<';
+}
+
+.menu-conteudo ul li a::after{
+    content: '>';
+}
+
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

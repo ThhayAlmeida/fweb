@@ -1,0 +1,62 @@
+.menu-opcoes{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px
+}
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social{
+    position: absolute;
+    right: 10px;
+}
+
+.social li{
+    float: left;
+    margin: 20px;
+}
+footer{
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}

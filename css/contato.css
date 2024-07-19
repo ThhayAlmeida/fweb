@@ -1,0 +1,116 @@
+h1{
+    background-image: url(../img/pink.png);
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    border-bottom: 2px solid violet;
+    margin-top: 30px;
+}
+
+p{
+    padding: 0 45px;text-indent: 15px;
+}
+
+figure{
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#foto{margin-left: 250px;
+    margin-right: 250px;
+    width: 200px;
+
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px
+}
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social{
+    position: absolute;
+    right: 10px;
+}
+
+.social li{
+    float: left;
+    margin: 20px;
+}
+
+footer{
+    clear: both;
+}
+
+p:first-letter{
+    font-weight: bold;
+}
+
+h2+p{
+    text-indent: 0px;
+}
+
+p::first-line{
+    font-variant: small-caps;
+}
+
+video{
+    width: 50%;
+    height: auto;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}

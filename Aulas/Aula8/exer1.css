@@ -1,0 +1,33 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.container a[href*=instagram]{
+    color: palevioletred;
+}
+
+.container a[href*=linkedin]{
+    color: yellow;
+}
+
+.container a[href*=github]{
+    color: blue;
+}
+
+/*Mouse por cima*/
+a:hover{
+    background-color: aquamarine;
+}
+
+/*Link visitado*/
+a:visited{
+    background-color: red;
+}
+
+/*Link clicado*/
+a:active{
+    background-color: green;
+}

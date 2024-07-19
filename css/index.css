@@ -1,0 +1,154 @@
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+   color: #003366;
+}
+
+.menu-opcoes a:hover{
+    color: blueviolet;
+}
+
+.menu-opcoes a:active{
+    color: burlywood;
+}
+
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    width: 100%;
+    height: 100% ;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.menu-opcoes{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px
+}
+
+.imglogo{
+    width: 150px;
+    height: 150px;
+}
+
+.painel{
+    width: 48%;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px brown;
+}
+
+.aula1{
+    float: left;
+    background-color: violet;
+    background: linear-gradient(5deg, violet, grey);
+}
+
+.aula2{
+    float: right;
+    background-color: violet;
+    background: linear-gradient(5deg, grey, violet);
+}
+
+.painel li{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.painel li:hover{
+    box-shadow: 10px 10px 5px whitesmoke;
+    transition: 0.7s;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2);
+    rotate: -5deg;
+}
+
+.painel h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(190, 250, 200, 0.8);
+}
+
+.painel a{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social{
+    position: absolute;
+    right: 10px;
+}
+
+footer{
+    clear: both;
+    height: 15%;
+}
+
+.social li{
+    float: left;
+    margin: 20px;
+}
+
+body{
+    background-image: url(../img/pink.png);
+}
+
+.imgexer{
+    width: 90%;
+    height: 90%;
+}
+
+header{
+    height: 20%;
+}
+
+main{
+    height: 65%;
+}

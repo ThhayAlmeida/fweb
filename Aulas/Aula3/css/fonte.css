@@ -1,0 +1,21 @@
+#p1{ 
+    font-family: serif;
+    font-size: 30px;
+}
+#p2{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+#p3{
+    font-family: monospace;
+    color: violet;
+}
+#p4{
+    font-family: cursive;
+    color: rgb(30, 150, 320)
+}
+#p5{
+    font-family: fantasy;
+    text-align: center;
+}
