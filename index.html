@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
+
 </head>
 
 <body>
@@ -26,7 +27,15 @@
         </nav>
     </header>
     <main>
+
         <section id="destaques">
+
+            <div class="container destaque">
+                <figure>
+                    <img src="./img/book2.png" alt="Imagem">
+                </figure>
+            </div>
+
             <div class="container paineis">
                 <section class="painel aula1"> <!--painel da aula 1 comentario-->
                     <h2>Painel Aula1</h2>
@@ -66,16 +75,25 @@
         </section>
     </main>
     <footer class="container">
-        <figure>
-            <img class="imglogo" src="./img/hey.png" alt="Imagem do logo">
-        </figure>
+
+        <input type="range" id="input-range" min="0" max="1" step="0.01">
+        <audio src="./audio/WhatsApp Audio 2024-07-19 at 20.50.18 (1).mp3" id="audioplayer"></audio>
+        <button id="Play">Play</button>
 
         <ul class="social">
             <li><a href="https://github.com/ThhayAlmeida">github</a></li>
             <li><a href="https://www.instagram.com/thhayalmeida?igsh=bGFmZzR5eHljNGh1&utm_source=qr">instagram</a></li>
             <li><a href="https://www.linkedin.com/in/thaynara-dealmeida/">linkedin</a></li>
         </ul>
+
+        <figure>
+            <img class="imglogo" src="./img/hey.png" alt="Imagem do logo">
+        </figure>
+
     </footer>
+
+    <script src="./js/index.js"></script>
+
 </body>
 
 </html>
