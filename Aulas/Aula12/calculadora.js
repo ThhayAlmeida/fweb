@@ -1,30 +1,31 @@
-let textValue = "";
+let textValue = '';
 
 function addNumber(addNumber){
-
-    updateTex()
+    textValue += addNumber;
+    updateText();
 }
 
 function addOperator(Operador){
-
-    updateTex()
+    textValue += Operador;
+    updateText();
 }
 
 function addDecimal(){
-
-    updateTex()
+    textValue += '.';
+    updateText();
 }
 
-function clearTex() {
-
-    updateTex()
+function clearText() {
+    textValue = '';
+    updateText();
 }
 
-function updateTex() {
-    document.querySelector /*continua*/
+function updateText() {
+    document.querySelector('#display').value = textValue;
 }
 
 function calculate() {
-
-    updateTex()
+    textValue = eval(textValue);
+    updateText();
 }
+
