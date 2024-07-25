@@ -1,0 +1,35 @@
+[{
+    "nome": "Thay",
+    "idade": 25,
+    "cpf": "019.654.982-98",
+    "telefone": 998453677
+},
+
+{
+    "nome": "Giovanna",
+    "idade": 4,
+    "cpf": "761.879.025-01",
+    "telefone": 997953144
+},
+
+{
+    "nome": "Emma",
+    "idade": 30,
+    "cpf": "791.852.123-31",
+    "telefone": 996971344
+},
+
+{
+    "nome": "Henry",
+    "idade": 12,
+    "cpf": "907.6389.030-49",
+    "telefone": 995398655
+},
+
+{
+    "nome": "Arya",
+    "idade": 18,
+    "cpf": "735.918.456-12",
+    "telefone": 999173688
+}
+]

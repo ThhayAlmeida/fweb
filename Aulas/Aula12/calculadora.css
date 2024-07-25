@@ -13,8 +13,9 @@ html, body{
 
 #display{
     width: 100%;
-    height: 10%;
+    height: 15%;
     border-radius: 10px;
+    background-color: darkgray;
 }
 
 /*estrutura da caluladora*/
@@ -28,4 +29,6 @@ main{
 
 .btnpadrao{
     border-radius: 10px;
+    color:black;
+    background-color:silver;
 }
