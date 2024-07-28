@@ -11,31 +11,34 @@
 <body>
     <main>
 
+        <h1>Calculadora</h1>
         <input type="text" id="display" placeholder="0">
         <div class="container">
-            <button class="btnpadrao" onclick="clearText('C')">C</button>
-            <button class="btnpadrao" onclick="addOperator('Del')">Del</button>
-            <button class="btnpadrao" onclick="addOperator('%')">%</button>
-            <button class="btnpadrao" onclick="addOperator('/')">÷</button>
+            <button class="btndiferente" onclick="clearText('C')">C</button>
+            <button class="btndiferente" onclick="addOperator('apagar')">Del</button>
+            <button class="btndiferente" onclick="addOperator('%')">%</button>
+            <button class="btndiferente" onclick="addOperator('/')">÷</button>
             <button class="btnpadrao" onclick="addNumber('7')">7</button>
             <button class="btnpadrao" onclick="addNumber('8')">8</button>
             <button class="btnpadrao" onclick="addNumber('9')">9</button>
-            <button class="btnpadrao" onclick="addOperator('*')">x</button>
+            <button class="btndiferente" onclick="addOperator('*')">x</button>
             <button class="btnpadrao" onclick="addNumber('4')">4</button>
             <button class="btnpadrao" onclick="addNumber('5')">5</button>
             <button class="btnpadrao" onclick="addNumber('6')">6</button>
-            <button class="btnpadrao" onclick="addOperator('-')">-</button>
+            <button class="btndiferente" onclick="addOperator('-')">-</button>
             <button class="btnpadrao" onclick="addNumber('1')">1</button>
             <button class="btnpadrao" onclick="addNumber('2')">2</button>
             <button class="btnpadrao" onclick="addNumber('3')">3</button>
-            <button class="btnpadrao" onclick="addOperator('+')">+</button>
+            <button class="btndiferente" onclick="addOperator('+')">+</button>
             <button class="btnpadrao" onclick="addNumber('0')">0</button>
             <button class="btnpadrao" onclick="addDecimal(',')">,</button>
-            <button class="btnpadrao" onclick="calculate('=')">=</button>
+            <button id="Igual" onclick="calculate('=')">=</button>
         </div>
 
     </main>
+
     <script src="./calculadora.js"></script>
+
 </body>
 
 </html>

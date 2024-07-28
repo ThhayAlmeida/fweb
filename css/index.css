@@ -53,13 +53,13 @@ html, body{
 .aula1{
     float: left;
     background-color: violet;
-    background: linear-gradient(5deg, violet, grey);
+    background: linear-gradient(5deg, #945737, grey);
 }
 
 .aula2{
     float: right;
     background-color: violet;
-    background: linear-gradient(5deg, grey, violet);
+    background: linear-gradient(5deg, grey, #945737);
 }
 
 .painel li{
@@ -137,7 +137,7 @@ footer{
 }
 
 body{
-    background-image: url(../img/pink.png);
+    background-image: url(../img/ebdacc.png);
 }
 
 .imgexer{

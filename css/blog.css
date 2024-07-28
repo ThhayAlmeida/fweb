@@ -60,3 +60,22 @@ footer{
     margin-left: auto;
     position: relative;
 }
+
+.imglogo{
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.logoicone{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 2px;
+    padding-bottom: 10px;
+    
+}
+
+body{
+    background-image: url(../img/ebdacc.png);
+}
