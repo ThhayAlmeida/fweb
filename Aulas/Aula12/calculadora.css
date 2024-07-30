@@ -1,7 +1,7 @@
 html, body{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(45deg, darkgrey, #ebdacc);
+    background-image: linear-gradient(25deg, black, white);
 }
 
 .container{
@@ -40,6 +40,13 @@ main{
     font-size: large;
 }
 
+.delTex{
+    border-radius: 10px;
+    color:black;
+    background-color: #c9c9c9;
+    font-size: large;
+}
+
 .btndiferente{
     border-radius: 10px;
     color:black;
@@ -47,13 +54,12 @@ main{
     font-size: large;
 }
 
-.container a:hover{
-    color: black;
+.container button:hover{
+    color: white;
 }
 
 #Igual{
     border-radius: 10px;
-    color:black;
     background-color: #4169e1;
     font-size: large;
     width: 200%;

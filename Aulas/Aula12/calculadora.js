@@ -20,6 +20,11 @@ function clearText() {
     updateText();
 }
 
+function delTex(){
+    textValue = textValue.substring(0,textValue.length - 1)
+    updateText();
+}
+
 function updateText() {
     document.querySelector('#display').value = textValue;
 }
