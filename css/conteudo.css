@@ -29,6 +29,7 @@
     height: 150px;
 }
 
+
 #imglupa{
     width: 5%;
     height: auto;
@@ -144,4 +145,13 @@ footer{
 .busca{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+body{
+    background-image: url(../img/fundoright1.png);
+}
+
+.imglogo{
+    width: 80px;
+    height: 80%;
 }

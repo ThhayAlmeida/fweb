@@ -114,3 +114,12 @@ html, body{
     margin-left: auto;
     position: relative;
 }
+
+body{
+    background-image: url(../img/fundoright1.png);
+}
+
+.imglogo{
+    width: 80px;
+    height: 80%;
+}

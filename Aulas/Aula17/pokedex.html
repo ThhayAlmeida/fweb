@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+
+            <figure><img id="imgPokedex" src="./img/pokedex.png" alt="Imagem da pokedex"></figure>
+            <figure><img id="imgPokemon" src="" alt="Imagem do Pokemon"></figure>
+
+            <h1 class="pokemon-data1">
+                <span id="numeroPokemon"></span>
+                <span id="nomePokemon"></span>
+            </h1>
+
+            <form class="form-busca">
+                <input type="text" id="inputName">
+            </form>
+
+            <h1 class="pokemon-data2">
+                <div id="tipoPokemon"></div>
+                <div id="pesoPokemon"></div>
+                <div id="alturaPokemon"></div>
+                <div id="habilidadePokemon"></div>
+                <div id="somPokemon"></div>
+            </h1>
+
+            <div class="divButtons">
+                <button id="btn1" class="button">Anterior</button>
+                <button id="btn2" class="button">Próximo</button>
+            </div>
+
+            <audio src="" id="audiopokemon" autoplay></audio>
+            
+        </div>
+    </main>
+
+    <script src="./pokedex.js"></script>
+
+</body>
+
+</html>

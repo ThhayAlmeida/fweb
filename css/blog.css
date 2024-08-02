@@ -1,3 +1,20 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 20%;
+}
+
+main{
+    height: 50%;
+}
+
+.menu-opcoes a{
+    color: black;
+}
+
 .menu-opcoes{
     position: absolute;
     top: 0%;
@@ -44,6 +61,7 @@
 .social{
     position: absolute;
     right: 10px;
+    top:0;
 }
 
 .social li{
@@ -62,9 +80,8 @@ footer{
 }
 
 .imglogo{
-    width: 150px;
-    height: 150px;
-    padding-top: 50px;
+    width: 80px;
+    height: 80%;
 }
 
 .logoicone{
@@ -77,5 +94,6 @@ footer{
 }
 
 body{
-    background-image: url(../img/ebdacc.png);
+    background-image: url(../img/fundoright1.png);
 }
+

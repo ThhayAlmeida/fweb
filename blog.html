@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+
+    <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
 </head>
+
 <header>
     <nav class="menu-opcoes">
         <ul>
@@ -22,21 +26,20 @@
 
 <body>
     <main>
-        <ul>
-            <li><a href="./Aulas/Aula4/Exer2/index.html">
-                    <html>The Scream</html>
-                    <img class="logoicone" src="./img/the scream.png" alt="The Scream">
-                </a></li>
-        </ul>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="./Aulas/Aula4/Exer2/index.html"><img class="logoicone" src="./img/the scream.png"></a>
+            </div>
 
-        <ul>
-            <li><a href="./Aulas/Aula12/calculadora.html">
-                <html>Calculadora</html>
-                <img class="logoicone" src="./img/Calculator.png" alt="Calculadora">
-            </a></li>
-        </ul>
-
+            <div class="item">
+                <a href="./Aulas/Aula12/calculadora.html">
+                    <img class="logoicone" src="./img/Calculator.png" alt="Calculadora">
+                </a>
+            </div>
+            
+        </div>
     </main>
+
 
     <footer class="container">
         <figure>
@@ -49,7 +52,10 @@
             <li><a href="https://www.linkedin.com/in/thaynara-dealmeida/">linkedin</a></li>
         </ul>
     </footer>
-    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/blog.js"></script>
+
 </body>
 
 </html>
