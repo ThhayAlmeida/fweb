@@ -54,7 +54,9 @@ main{
 .pokemon-data2{
     position: absolute;
     top: 70%;
-    right: 45%;
+    right: 42%;
+    font-size: 25px;
+    text-align: center;
 }
 
 .divButtons{

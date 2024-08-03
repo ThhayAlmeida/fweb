@@ -22,15 +22,22 @@
             </h1>
 
             <form class="form-busca">
-                <input type="text" id="inputName">
+                <input type="text" id="inputName" value="" placeholder="Digite o nome ou número">
             </form>
 
             <h1 class="pokemon-data2">
-                <div id="tipoPokemon"></div>
-                <div id="pesoPokemon"></div>
-                <div id="alturaPokemon"></div>
-                <div id="habilidadePokemon"></div>
-                <div id="somPokemon"></div>
+                <div>Tipo:
+                    <span id="tipo1">Tipo1</span>
+                    <div id="tipo2">Tipo2</div>
+                </div>
+
+                <div>Peso:
+                    <span id="pesoPokemon"></span>
+                </div>
+
+                <div>Altura:
+                    <span id="alturaPokemon"></span>
+                </div>
             </h1>
 
             <div class="divButtons">
@@ -39,8 +46,11 @@
             </div>
 
             <audio src="" id="audiopokemon" autoplay></audio>
-            
+
+            <audio src="./audio/WhatsApp Audio 2024-08-02 at 21.48.46.mp3" id="audioplayer" autoplay></audio>
+
         </div>
+
     </main>
 
     <script src="./pokedex.js"></script>
