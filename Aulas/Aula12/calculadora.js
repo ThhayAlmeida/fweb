@@ -33,4 +33,3 @@ function calculate() {
     textValue = eval(textValue);
     updateText();
 }
-

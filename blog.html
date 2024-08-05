@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 
-    <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/blog.css">
@@ -14,7 +14,15 @@
 </head>
 
 <header>
+
+    <header class="container">
+        <figure>
+            <img id="imglogo" src="./img/hey.png" alt="Imagem do Logo">
+        </figure>
+    </header>
+
     <nav class="menu-opcoes">
+        <!--Lista de opções-->
         <ul>
             <li><a href="./index.html">Página principal</a></li>
             <li><a href="./contato.html">Contato</a></li>
@@ -26,6 +34,7 @@
 
 <body>
     <main>
+        <!--Lista de conteudo com carousel-->
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <a href="./Aulas/Aula4/Exer2/index.html"><img class="logoicone" src="./img/the scream.png"></a>
@@ -36,22 +45,32 @@
                     <img class="logoicone" src="./img/Calculator.png" alt="Calculadora">
                 </a>
             </div>
-            
+
+            <div class="item">
+                <a href="./Aulas/Aula17/pokedex.html">
+                    <img class="logoicone" src="./Aulas/Aula17/img/pokedex.png" alt="Pokedex">
+                </a>
+
+            </div>
+
         </div>
     </main>
 
 
     <footer class="container">
+        <!--Imagem do logo-->
         <figure>
             <img class="imglogo" src="./img/hey.png" alt="Imagem do logo">
         </figure>
 
+        <!--Lista das redes sociais-->
         <ul class="social">
             <li><a href="https://github.com/ThhayAlmeida">github</a></li>
             <li><a href="https://www.instagram.com/thhayalmeida?igsh=bGFmZzR5eHljNGh1&utm_source=qr">instagram</a></li>
             <li><a href="https://www.linkedin.com/in/thaynara-dealmeida/">linkedin</a></li>
         </ul>
     </footer>
+    <!--Links de js-->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/blog.js"></script>

@@ -25,10 +25,9 @@
 }
 
 #imglogo{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
 }
-
 
 #imglupa{
     width: 5%;
@@ -42,6 +41,8 @@
     width: 35%;
     margin-right: 10px;
     float: left;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px brown;
 }
 
 .busca h2,
@@ -56,9 +57,11 @@
     padding: 5px 10px;
 }
 
-.menu-conteudo a{
+.menu-opcoes a{
     color: black;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+ }
 
 .menu-conteudo{
     clear: left;
@@ -86,6 +89,7 @@
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    margin-top: 50px;
 }
 
 .social li a[href*=instagram]{
@@ -96,6 +100,7 @@
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    margin-top: 50px;
 }
 
 .social li a[href*=linkedin]{
@@ -106,6 +111,7 @@
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    margin-top: 50px;
 }
 
 .social{
@@ -147,11 +153,16 @@ footer{
     border-top-right-radius: 10px;
 }
 
+.busca{
+    width: 440px;
+}
+
 body{
     background-image: url(../img/fundoright1.png);
 }
 
 .imglogo{
     width: 80px;
-    height: 80%;
+    height: 80px;
+    margin-top: 50px;
 }

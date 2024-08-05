@@ -3,7 +3,9 @@
 }
 
 .menu-opcoes a{
-   color: #003366;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
 }
 
 .menu-opcoes a:hover{
@@ -37,9 +39,9 @@ html, body{
     margin-left: 20px
 }
 
-.imglogo{
-    width: 150px;
-    height: 150px;
+#imglogo{
+    width: 130px;
+    height: 130px;
 }
 
 .painel{
@@ -53,14 +55,27 @@ html, body{
 .aula1{
     float: left;
     background-color: violet;
-    background: linear-gradient(5deg, #945737, grey);
+    background: linear-gradient(5deg, violet, grey);
 }
 
 .aula2{
     float: right;
     background-color: violet;
-    background: linear-gradient(5deg, grey, #945737);
+    background: linear-gradient(5deg, grey, violet);
 }
+
+.aula8{
+    float: left;
+    background-color: violet;
+    background: linear-gradient(5deg, violet, grey);
+}
+
+.aula15{
+    float: right;
+    background-color: violet;
+    background: linear-gradient(5deg, grey, violet);
+}
+
 
 .painel li{
     display: inline-block;
@@ -99,6 +114,7 @@ html, body{
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    margin-top: 50px;
 }
 
 .social li a[href*=instagram]{
@@ -109,6 +125,7 @@ html, body{
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    margin-top: 50px;
 }
 
 .social li a[href*=linkedin]{
@@ -119,6 +136,7 @@ html, body{
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
+    margin-top: 50px;
 }
 
 .social{
@@ -166,5 +184,6 @@ main{
 
 .imglogo{
     width: 80px;
-    height: 80%;
+    height: 80px;
+    margin-top: 50px;
 }
