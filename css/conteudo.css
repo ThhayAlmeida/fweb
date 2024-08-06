@@ -1,3 +1,4 @@
+/*Ajustes para os botões da página principal, contato, conteudo e blog*/
 .menu-opcoes ul{
     font-size: 20px;
 }
@@ -6,13 +7,6 @@
    color: #003366;
    border-radius: 3px;
    background: linear-gradient(5deg, violet, grey);
-}
-
-.container{
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
 }
 
 .menu-opcoes{
@@ -26,17 +20,28 @@
     margin-left: 20px;
 }
 
+/*Faz a estilização do que está dentro da class*/
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+/*Imagem de logo da página*/
 #imglogo{
     width: 80px;
     height: 80px;
     border-radius: 20px;
 }
 
+/*Imagem de logo da lupa*/
 #imglupa{
     width: 5%;
     height: auto;
 }
 
+/*Estiliza o campo onde é feita a busca*/
 .busca, .menu-conteudo{
     background-color: pink;
     font-weight: bold;
@@ -48,18 +53,21 @@
     box-shadow: inset 0px 0px 5px brown;
 }
 
+/*Coloca margim nas class abaixo*/
 .busca h2,
 .busca form,
 .menu-conteudo h2{
     margin: 10px;
 }
 
+/*Estiliza onde está as listas de aula*/
 .menu-conteudo li{
     background-color: bisque;
     margin-bottom: 1px;
     padding: 5px 10px;
 }
 
+/*Ajustes para os botões da página principal, contato, conteudo e blog*/
 .menu-opcoes a{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,18 +80,22 @@
     padding: 10px;
 }
 
+/*Alinha texto verticalmente que estejam dentro de uma célula*/
 .busca input{
     vertical-align: middle;
 }
 
+/*Aplica margim para parte de cima*/
 .destaque{
     margin-top: 10px;
 }
 
+/*Aplica o tamanho para o input de busca*/
 .busca imput[type=search]{
     width: 170px;
 }
 
+/* Link e estilização da redes sociais*/
 .social li a[href*=github]{
     width: 50px;
     height: 50px;
@@ -130,10 +142,12 @@
     margin: 20px;
 }
 
+/*Nenhum outro elemento poderá ser posicionado nem à direita, nem à esquerda, do elemento recebendo esta propriedade*/
 footer{
     clear: both;
 }
 
+/*Estiliza onde está as listas de aula*/
 .menu-conteudo li ul{
     display: none;
 }
@@ -142,14 +156,17 @@ footer{
     display: block;
 }
 
+/*Coloca a cor de fundo do link*/
 .menu-conteudo ul ul li{
     background-color: greenyellow;
 }
 
+/*Coloca o < antes do link*/
 .menu-conteudo ul li a::before{
     content: '<';
 }
 
+/*Coloca o > depois do link*/
 .menu-conteudo ul li a::after{
     content: '>';
 }
@@ -163,10 +180,12 @@ footer{
     width: 450px;
 }
 
+/*Imagem de fundo para página*/
 body{
     background-image: url(../img/fundoright1.png);
 }
 
+/*Estilização de altura, largura, posição, margim*/
 .imglogo{
     width: 80px;
     height: 80px;

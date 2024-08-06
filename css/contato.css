@@ -1,3 +1,4 @@
+/*Ajustes de imagem de fundo, centralização de texto, espaçamento entreg outros*/
 h1{
     background-image: url(../img/pink.png);
     text-align: center;
@@ -18,11 +19,14 @@ figure{
     padding: 15px;
     margin: 30px;
 }
+
+/*Tamanho e largura da imagem*/
 img{
     width: 200px;
     height: 200px;
 }
 
+/*Foto de perfil da página*/
 #foto{
     margin-left: 250px;
     margin-right: 450px;
@@ -32,6 +36,7 @@ img{
     box-shadow: inset 0px 0px 5px black;
 }
 
+/*Ajustes para os botões da página principal, contato, conteudo e blog*/
 .menu-opcoes{
     position: absolute;
     top: 0%;
@@ -55,6 +60,7 @@ img{
     font-size: 20px;
 }
 
+/* Link e estilização da redes sociais*/
 .social li a[href*=github]{
     width: 50px;
     height: 50px;
@@ -101,32 +107,39 @@ img{
     margin: 20px;
 }
 
+/*Nenhum outro elemento poderá ser posicionado nem à direita, nem à esquerda, do elemento recebendo esta propriedade*/
 footer{
     clear: both;
 }
 
+/*Deixa a priemira letra em negrito*/
 p:first-letter{
     font-weight: bold;
 }
 
+/*Permite ajustar o recuo do texto dentro de um elemento*/
 h2+p{
     text-indent: 0px;
 }
 
+/*Deixa em letra minuscula*/
 p::first-line{
     font-variant: small-caps;
 }
 
+/*Ajustes para o video*/
 video{
     width: 50%;
     height: auto;
 }
 
+/*Pega tudo que está dentro do body*/
 html, body{
     width: 100%;
     height: 100%;
 }
 
+/*Faz a estilização do que está dentro da class*/
 .container{
     width: 90%;
     margin-right: auto;
@@ -134,10 +147,12 @@ html, body{
     position: relative;
 }
 
+/*Imagem de fundo para página*/
 body{
     background-image: url(../img/fundoright1.png);
 }
 
+/*Estilização de altura, largura, posição, margim*/
 .imglogo{
     width: 80px;
     height: 80%;

@@ -1,3 +1,4 @@
+/*Ajustes para os botões da página principal, contato, conteudo e blog*/
 .menu-opcoes ul{
     font-size: 20px;
 }
@@ -18,6 +19,7 @@
     color: burlywood;
 }
 
+/*Estiliza o que ta no body com a fonte, cor, tamanho e altura*/
 html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black;
@@ -25,12 +27,15 @@ html, body{
     height: 100% ;
 }
 
+/*Faz a estilização do que está dentro da class*/
 .container{
     width: 90%;
     margin-right: auto;
     margin-left: auto;
     position: relative;
 }
+
+/*Ajustes para os botões da página principal, contato, conteudo e blog*/
 .menu-opcoes{
     position: absolute;
     top: 0%;
@@ -41,12 +46,14 @@ html, body{
     margin-left: 20px
 }
 
+/*Ajustes para altura, largura e bordas na imagem*/
 #imglogo{
     width: 80px;
     height: 80%;
     border-radius: 20px;
 }
 
+/*Estilização para os paineis,shadow é a sombra*/
 .painel{
     width: 48%;
     margin: 10px 0px;
@@ -55,6 +62,7 @@ html, body{
     box-shadow: inset 0px 0px 5px brown;
 }
 
+/*Linear gradiente vai dar o efeito da cor de migração uma para outra*/
 .aula1{
     float: left;
     background-color: violet;
@@ -79,7 +87,7 @@ html, body{
     background: linear-gradient(5deg, grey, violet);
 }
 
-
+/*Estilização para os paineis*/
 .painel li{
     display: inline-block;
     width: 10%;
@@ -109,6 +117,7 @@ html, body{
     text-align: center;
 }
 
+/* Link e estilização da redes sociais*/
 .social li a[href*=github]{
     width: 50px;
     height: 50px;
@@ -150,6 +159,7 @@ html, body{
     right: 10px;
 }
 
+/*Nenhum outro elemento poderá ser posicionado nem à direita, nem à esquerda, do elemento recebendo esta propriedade e também a altura*/
 footer{
     clear: both;
     height: 15%;
@@ -160,10 +170,12 @@ footer{
     margin: 20px;
 }
 
+/*Imagem de fundo para página*/
 body{
     background-image: url(../img/fundoright1.png);
 }
 
+/*Imagem do exercicio com altura e largura*/
 .imgexer{
     width: 90%;
     height: 90%;

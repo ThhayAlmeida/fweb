@@ -38,3 +38,8 @@ header figure{
 .painel img{
     width: 100%;
 }
+
+#imgfooter{
+    width: 50%;
+    height: 10%;
+}
