@@ -4,6 +4,8 @@
 
 .menu-opcoes a{
    color: #003366;
+   border-radius: 3px;
+   background: linear-gradient(5deg, violet, grey);
 }
 
 .container{
@@ -27,6 +29,7 @@
 #imglogo{
     width: 80px;
     height: 80px;
+    border-radius: 20px;
 }
 
 #imglupa{
@@ -90,6 +93,7 @@
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .social li a[href*=instagram]{
@@ -101,6 +105,7 @@
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 60px;
 }
 
 .social li a[href*=linkedin]{
@@ -112,6 +117,7 @@
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .social{
@@ -165,4 +171,5 @@ body{
     width: 80px;
     height: 80px;
     margin-top: 50px;
+    border-radius: 20px;
 }

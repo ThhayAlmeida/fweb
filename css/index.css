@@ -6,6 +6,8 @@
    color: black;
    font-family: Arial, Helvetica, sans-serif;
    font-size: large;
+   border-radius: 3px;
+   background: linear-gradient(5deg, violet, grey);
 }
 
 .menu-opcoes a:hover{
@@ -40,8 +42,9 @@ html, body{
 }
 
 #imglogo{
-    width: 130px;
-    height: 130px;
+    width: 80px;
+    height: 80%;
+    border-radius: 20px;
 }
 
 .painel{
@@ -115,6 +118,7 @@ html, body{
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .social li a[href*=instagram]{
@@ -126,6 +130,7 @@ html, body{
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 60px;
 }
 
 .social li a[href*=linkedin]{
@@ -137,6 +142,7 @@ html, body{
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .social{
@@ -184,6 +190,7 @@ main{
 
 .imglogo{
     width: 80px;
-    height: 80px;
+    height: 80%;
     margin-top: 50px;
+    border-radius: 20px;
 }

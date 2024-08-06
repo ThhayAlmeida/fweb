@@ -25,7 +25,7 @@ img{
 
 #foto{
     margin-left: 250px;
-    margin-right: 250px;
+    margin-right: 450px;
     width: 200px;
     height: 300px;
     border-radius: 10px;
@@ -35,18 +35,24 @@ img{
 .menu-opcoes{
     position: absolute;
     top: 0%;
-    right: 5%;
+    right: 1%;
 }
 
 .menu-opcoes a{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    border-radius: 3px;
+    background: linear-gradient(5deg, violet, grey);
 }
 
 .menu-opcoes ul li{
     display: inline;
-    margin-left: 20px
+    margin-left: 20px;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
 }
 
 .social li a[href*=github]{
@@ -58,6 +64,7 @@ img{
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .social li a[href*=instagram]{
@@ -69,6 +76,7 @@ img{
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 60px;
 }
 
 .social li a[href*=linkedin]{
@@ -80,6 +88,7 @@ img{
     text-indent: -9999px;
     display: block;
     margin-top: 50px;
+    border-radius: 50px;
 }
 
 .social{
@@ -131,7 +140,15 @@ body{
 
 .imglogo{
     width: 80px;
-    height: 80px;
+    height: 80%;
     float: left;
     margin-top: 50px;
+    border-radius: 20px;
+}
+
+#imglogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    float: left;
 }
